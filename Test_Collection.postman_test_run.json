@@ -1,0 +1,374 @@
+{
+	"id": "b60279cb-4a3c-4913-8e95-66c17c689ac9",
+	"name": "Test_Collection",
+	"timestamp": "2023-07-30T00:26:43.218Z",
+	"collection_id": "9873736-b59a90d0-53dc-47e2-a3cf-df1b7a032d3b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-30T00:26:35.885Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4459ff4c-2a40-48a6-b8f4-1253cc42218f",
+			"name": "Register",
+			"url": "https://sandbox.api.oexpress.co.id/auth/member/register",
+			"time": 653,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				653
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "754fd2fc-4ca3-4f9c-9e2b-51b62cca2b80",
+			"name": "Login",
+			"url": "https://sandbox.api.oexpress.co.id/auth/member/login",
+			"time": 337,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				337
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "94923afb-36d1-4f92-bc14-81db618ae243",
+			"name": "Logout",
+			"url": "https://sandbox.api.oexpress.co.id/auth/member/logout",
+			"time": 65,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				65
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd50aa06-18ab-4e33-81dc-1ba6da6d8c2b",
+			"name": "Reset Password",
+			"url": "https://sandbox.api.oexpress.co.id/auth/member/password/reset",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				420
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "44c25155-e0b0-40b6-aa35-55c7517d1cf4",
+			"name": "Me",
+			"url": "https://sandbox.api.oexpress.co.id/auth/member/me",
+			"time": 385,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				385
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "30287f18-5b81-4c72-a176-6aefa282b6b2",
+			"name": "Update Agreement",
+			"url": "https://sandbox.api.oexpress.co.id/corporate/agreement",
+			"time": 244,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				244
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1e95fe45-9672-4cc0-8645-b92cd790738e",
+			"name": "Upload Signed Agreement",
+			"url": "https://sandbox.api.oexpress.co.id/corporate/agreement/upload-signed",
+			"time": 337,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				337
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "662ed1e6-f23e-4a4e-9253-47acf93e4595",
+			"name": "Get Agreement",
+			"url": "https://sandbox.api.oexpress.co.id/corporate/agreement",
+			"time": 343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				343
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8ab7771b-63f8-4e79-8d2d-e7c833bd45b1",
+			"name": "Edit Onboarding Step",
+			"url": "https://sandbox.api.oexpress.co.id/settings/onboarding-step",
+			"time": 342,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				342
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "07a07d44-2179-46a0-a03c-9a7907faa0bd",
+			"name": "Corporate - Edit Onboarding Step",
+			"url": "https://sandbox.api.oexpress.co.id/settings/onboarding-step",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				267
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f2b4491a-e9ea-4c96-8d8d-bfc5a4611223",
+			"name": "Edit Profile",
+			"url": "https://sandbox.api.oexpress.co.id/settings/profile",
+			"time": 376,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				376
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "79b99f12-7469-4578-86d4-c2e194171d0f",
+			"name": "Update Email",
+			"url": "https://sandbox.api.oexpress.co.id/settings/email",
+			"time": 455,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				455
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a7a1f598-7a0c-4614-8f61-8647fa32c409",
+			"name": "Verification Update Email",
+			"url": "https://sandbox.api.oexpress.co.id/settings/verify-otp-change-email",
+			"time": 328,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				328
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "91d3f26b-88e1-4321-95fa-b38d182b1ca6",
+			"name": "Edit Onboarding Step",
+			"url": "https://sandbox.api.oexpress.co.id/settings/onboarding-step",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				336
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9e75038b-7256-4b30-be58-69c78c962e3c",
+			"name": "Upload Identity",
+			"url": "https://sandbox.api.oexpress.co.id/settings/update-identity",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "df36c9e7-efba-4e20-97ff-f2e5ba1cd0f2",
+			"name": "Update Password",
+			"url": "https://sandbox.api.oexpress.co.id/settings/password",
+			"time": 342,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				342
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5513,
+	"collection": {
+		"requests": [
+			{
+				"id": "4459ff4c-2a40-48a6-b8f4-1253cc42218f",
+				"method": "POST"
+			},
+			{
+				"id": "754fd2fc-4ca3-4f9c-9e2b-51b62cca2b80",
+				"method": "POST"
+			},
+			{
+				"id": "94923afb-36d1-4f92-bc14-81db618ae243",
+				"method": "POST"
+			},
+			{
+				"id": "dd50aa06-18ab-4e33-81dc-1ba6da6d8c2b",
+				"method": "POST"
+			},
+			{
+				"id": "44c25155-e0b0-40b6-aa35-55c7517d1cf4",
+				"method": "GET"
+			},
+			{
+				"id": "30287f18-5b81-4c72-a176-6aefa282b6b2",
+				"method": "POST"
+			},
+			{
+				"id": "1e95fe45-9672-4cc0-8645-b92cd790738e",
+				"method": "POST"
+			},
+			{
+				"id": "662ed1e6-f23e-4a4e-9253-47acf93e4595",
+				"method": "GET"
+			},
+			{
+				"id": "8ab7771b-63f8-4e79-8d2d-e7c833bd45b1",
+				"method": "PUT"
+			},
+			{
+				"id": "07a07d44-2179-46a0-a03c-9a7907faa0bd",
+				"method": "PUT"
+			},
+			{
+				"id": "f2b4491a-e9ea-4c96-8d8d-bfc5a4611223",
+				"method": "PUT"
+			},
+			{
+				"id": "79b99f12-7469-4578-86d4-c2e194171d0f",
+				"method": "PUT"
+			},
+			{
+				"id": "a7a1f598-7a0c-4614-8f61-8647fa32c409",
+				"method": "PUT"
+			},
+			{
+				"id": "91d3f26b-88e1-4321-95fa-b38d182b1ca6",
+				"method": "PUT"
+			},
+			{
+				"id": "9e75038b-7256-4b30-be58-69c78c962e3c",
+				"method": "POST"
+			},
+			{
+				"id": "df36c9e7-efba-4e20-97ff-f2e5ba1cd0f2",
+				"method": "PUT"
+			}
+		]
+	}
+}
